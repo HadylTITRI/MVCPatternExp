@@ -4,13 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cda327f-2c99-4ab0-9fd1-abf683995abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LesPatronsConceeption_-Modele MVC.iml" afterDir="false" />
+    <list default="true" id="3cda327f-2c99-4ab0-9fd1-abf683995abf" name="Changes" comment="MVC Patter implementation">
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/CompositePatternExp/ComposiePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/CompositePatternExp/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/FactoryPatternExp/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/HexaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/ObserverPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ObserverPatternExp/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ProxyPatternExp/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ProxyPatternExp/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ProxyPatternExp/ProxyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/ProxyPatternExp/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/SingeltonPatternExp/SingeltonPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/SingeltonPatternExp/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PatternsDesign/StrategyPatternExp/StrategyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,20 +54,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J2gX7nej7bPzyL666sQ5w62xla" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ASUS/git/LesPatronsConceeption_-Modele MVC/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,7 +81,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StrategyPatternDemo">
+    <configuration name="ComposiePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.CompositePatternExp.ComposiePatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PatternsDesign.CompositePatternExp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.FactoryPatternExp.FactoryPatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PatternsDesign.FactoryPatternExp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MVCExp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pack.MVCPatterDemo" />
       <module name="LesPatronsConceeption_-Modele MVC" />
@@ -60,6 +115,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObserverPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.ObserverPatternExp.ObserverPatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PatternsDesign.ObserverPatternExp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.ProxyPatternExp.ProxyPatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PatternsDesign.ProxyPatternExp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.StrategyPatternExp.StrategyPatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PatternsDesign.StrategyPatternExp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternsDesign.SingeltonPatternExp.SingeltonPatternDemo" />
+      <module name="LesPatronsConceeption_-Modele MVC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.MVCExp" />
+      <item itemvalue="Application.ComposiePatternDemo" />
+      <item itemvalue="Application.FactoryPatternDemo" />
+      <item itemvalue="Application.ObserverPatternDemo" />
+      <item itemvalue="Application.ProxyPatternDemo" />
+      <item itemvalue="Application.StrategyPatternDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StrategyPatternDemo" />
+        <item itemvalue="Application.ObserverPatternDemo" />
+        <item itemvalue="Application.ProxyPatternDemo" />
+        <item itemvalue="Application.ComposiePatternDemo" />
+        <item itemvalue="Application.FactoryPatternDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,8 +189,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671281632558</updated>
-      <workItem from="1671281635438" duration="2770000" />
+      <workItem from="1671281635438" duration="13427000" />
     </task>
+    <task id="LOCAL-00001" summary="MVC Patter implementation">
+      <created>1671285031328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671285031329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MVC Patter implementation">
+      <created>1671285801615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671285801616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +221,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="MVC Patter implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC Patter implementation" />
   </component>
 </project>
